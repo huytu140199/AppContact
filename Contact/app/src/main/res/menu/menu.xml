@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Tìm kiếm"
+        android:icon="@drawable/baseline_search_white_24dp"
+        android:id="@+id/findItem"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:title="Thêm chuyến đi"
+        android:icon="@drawable/baseline_add_24"
+        android:id="@+id/addItem"
+        app:showAsAction="always"
+        />
+</menu>
